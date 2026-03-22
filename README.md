@@ -1,59 +1,224 @@
-🤖 Fastfetch Mr. Robot Theme
-Mr. Robot inspired Fastfetch theme — minimal, dark and hacker aesthetic for your terminal.
-🧠 About
-This project is a custom theme for Fastfetch, designed with inspiration from the iconic visual style of Mr. Robot.
-It brings a cyberpunk / hacker vibe to your terminal with a clean and modern layout.
-✨ Features
-🟥 Mr. Robot inspired color palette
-🖤 Dark & minimal UI
-🧠 Clean module layout
-🎨 Custom ASCII / image styling
-⚡ Lightweight & fast
-📸 Preview
-Your terminal will look like this:
-⚙️ Requirements
-Make sure you have:
-Fastfetch installed
-A Nerd Font (recommended)
-Recommended Fonts
-JetBrainsMono Nerd Font
-FiraCode Nerd Font
-🚀 Installation
-1. Clone the repository
+
+# 🤖 Fastfetch Mr. Robot Theme
+
+![Banner](./assets/banner.png)
+
+> A sleek **Mr. Robot inspired Fastfetch theme** — bring a dark, hacker-style aesthetic to your terminal.
+
+---
+
+## 🧠 About
+
+This repository provides a custom theme for Fastfetch, inspired by the iconic visuals of Mr. Robot.
+
+The goal is simple:
+create a **minimal, cinematic, hacker-like terminal experience**.
+
+---
+
+## ✨ Features
+
+* 🟥 Mr. Robot themed color palette
+* 🖤 Dark, clean and minimal layout
+* 🧠 Structured system info modules
+* 🖼️ Custom image / ASCII support
+* ⚡ Fast & lightweight
+
+---
+
+## 📸 Preview
+
+![Preview](./assets/preview.png)
+
+---
+
+## ⚙️ Requirements
+
+Before installing the theme, make sure you have:
+
+* Fastfetch installed
+* A Nerd Font (for proper icons)
+
+### 🔤 Recommended Fonts
+
+* JetBrainsMono Nerd Font
+* FiraCode Nerd Font
+
+---
+
+## 📦 Install Fastfetch
+
+### 🐧 Linux
+
+**Arch Linux**
+
+```bash
+sudo pacman -S fastfetch
+```
+
+**Ubuntu / Debian**
+
+```bash
+sudo apt install fastfetch
+```
+
+**Fedora**
+
+```bash
+sudo dnf install fastfetch
+```
+
+---
+
+### 🍎 macOS
+
+Using Homebrew:
+
+```bash
+brew install fastfetch
+```
+
+---
+
+## 🚀 Theme Installation
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/odweblabs/Fastfetch-Mr.robot-Theme.git
 cd Fastfetch-Mr.robot-Theme
-2. Copy config
-mkdir -p ~/.config/fastfetch
-cp mr-robot.jsonc ~/.config/fastfetch/config.jsonc
-3. Run
-fastfetch
-🎨 Customization
-You can fully customize the theme via:
+```
+
+---
+
+## ⚙️ Configuration (IMPORTANT)
+
+Fastfetch uses a config file located in your home directory.
+
+### 🐧 Linux Config Path
+
+```bash
 ~/.config/fastfetch/config.jsonc
-Things you can tweak:
-🎨 Colors
-🧩 Modules
-🖼️ ASCII / Image
-📊 Layout
-💡 Tips
-Add Fastfetch to startup:
-# ~/.bashrc or ~/.zshrc
+```
+
+### 🍎 macOS Config Path
+
+```bash
+~/.config/fastfetch/config.jsonc
+```
+
+> 💡 If the folder doesn't exist, create it:
+
+```bash
+mkdir -p ~/.config/fastfetch
+```
+
+---
+
+### 🔄 Apply the Theme
+
+Copy the theme config:
+
+```bash
+cp mr-robot.jsonc ~/.config/fastfetch/config.jsonc
+```
+
+---
+
+### ▶️ Run Fastfetch
+
+```bash
 fastfetch
-🧑‍💻 Inspiration
-Mr. Robot terminal scenes
-Cybersecurity & hacker culture
-Minimal UNIX environments
-🤝 Contributing
-PRs are welcome!
-Fork the repo
-Create a branch
-Submit a pull request
-⭐ Support
-If you like this project:
-⭐ Star the repo
-🍴 Fork it
-🧠 Share it
-📜 License
-This project is licensed under the:
-GNU General Public License v2.0
-See the LICENSE file for details.
+```
+
+---
+
+## 🎨 Customization
+
+You can edit the config file to personalize your setup:
+
+```bash
+nano ~/.config/fastfetch/config.jsonc
+```
+
+### You can customize:
+
+* 🎨 Colors
+* 🧩 Modules (CPU, GPU, OS, etc.)
+* 🖼️ Image / ASCII logo
+* 📐 Layout & spacing
+
+---
+
+## 💡 Tips
+
+### Auto-run on terminal start
+
+Add this line to your shell config:
+
+**Bash**
+
+```bash
+~/.bashrc
+```
+
+**Zsh**
+
+```bash
+~/.zshrc
+```
+
+Then add:
+
+```bash
+fastfetch
+```
+
+---
+
+## 🧑‍💻 Inspiration
+
+* Mr. Robot terminal aesthetics
+* Cybersecurity & hacker culture
+* Minimal UNIX environments
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## ⭐ Support
+
+If you like this theme:
+
+* ⭐ Star the repository
+* 🍴 Fork it
+* 🧠 Share it
+
+---
+
+## 📜 License
+
+This project is licensed under:
+
+**GNU General Public License v2.0**
+
+---
+
+## 🔥 Future Improvements
+
+* [ ] Multiple color variants (green / red / mono)
+* [ ] One-line installer script
+* [ ] Animated preview (GIF)
+* [ ] Modular configs
+
+---
+
