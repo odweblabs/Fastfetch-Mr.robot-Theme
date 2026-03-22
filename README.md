@@ -1,7 +1,9 @@
 
 # 🤖 Fastfetch Mr. Robot Theme
 
-![Banner](./assets/banner.png)
+## 📸 Preview
+
+![Preview](./fastfetch/assets/mr.robot.png)
 
 > A sleek **Mr. Robot inspired Fastfetch theme** — bring a dark, hacker-style aesthetic to your terminal.
 
@@ -23,12 +25,6 @@ create a **minimal, cinematic, hacker-like terminal experience**.
 * 🧠 Structured system info modules
 * 🖼️ Custom image / ASCII support
 * ⚡ Fast & lightweight
-
----
-
-## 📸 Preview
-
-![Preview](./assets/preview.png)
 
 ---
 
