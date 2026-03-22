@@ -1,7 +1,6 @@
 
-# 🤖 Fastfetch Mr. Robot Theme
 
-## 📸 Preview
+# 🤖 Fastfetch Mr. Robot Theme
 
 ![Preview](./fastfetch/assets/mr.robot.png)
 
@@ -25,6 +24,12 @@ create a **minimal, cinematic, hacker-like terminal experience**.
 * 🧠 Structured system info modules
 * 🖼️ Custom image / ASCII support
 * ⚡ Fast & lightweight
+
+---
+
+## 📸 Preview
+
+!![Preview](./fastfetch/assets/banner.png)
 
 ---
 
@@ -217,4 +222,3 @@ This project is licensed under:
 * [ ] Modular configs
 
 ---
-
